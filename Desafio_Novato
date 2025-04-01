@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-// Função para remover pontos e vírgulas de uma string
+
 void removerSeparadores(char* str) {
     char temp[strlen(str) + 1];
     int j = 0;
